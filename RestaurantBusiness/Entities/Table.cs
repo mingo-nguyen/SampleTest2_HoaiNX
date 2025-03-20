@@ -12,6 +12,6 @@ namespace RestaurantBusiness.Entities
         public int TableNumber { get; set; }
         public int Seats { get; set; }
         public string Status { get; set; }
-        public ICollection<Reservation> Reservations { get; set; }
+        public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
     }
 }

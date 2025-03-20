@@ -16,29 +16,35 @@ namespace RestaurantDataAccess.Services
         {
             _tableRepository = tableRepository;
         }
-        public Task<Table> AddAsync(Table table)
+        public async Task<Table> AddAsync(Table table)
         {
-            throw new NotImplementedException();
+            return await _tableRepository.AddAsync(table);
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var listReservation = await _tableRepository.GetTableReservationsAsync(id);
+            if (listReservation.Count() > 0)
+            {
+                throw new InvalidOperationException("The table has reservations and cannot be deleted.");
+            }
+            await _tableRepository.DeleteAsync(id);
         }
 
         public Task<IEnumerable<Table>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return _tableRepository.GetAllAsync();
         }
 
-        public Task<Table> GetAsync(int id)
+        public async Task<Table> GetAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _tableRepository.GetByIdAsync(id);
         }
 
-        public Task UpdateAsync(Table table)
+        public async Task UpdateAsync(Table table)
         {
-            throw new NotImplementedException();
+            await _tableRepository.UpdateAsync(table);
         }
+
     }
 }

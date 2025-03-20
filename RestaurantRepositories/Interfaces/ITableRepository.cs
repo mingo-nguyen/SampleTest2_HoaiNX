@@ -14,6 +14,6 @@ namespace RestaurantRepositories.Interfaces
         public Task<Table> AddAsync(Table table);
         public Task UpdateAsync(Table table);
         public Task DeleteAsync(int id);
-
+        public Task<IEnumerable<Reservation>> GetTableReservationsAsync(int tableId);
     }
 }

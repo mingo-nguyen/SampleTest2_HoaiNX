@@ -16,9 +16,11 @@ namespace RestaurantRepositories.Repositories
         {
             _context = context;
         }
-        public Task<Reservation> AddAsync(Reservation reservation)
+        public async Task<Reservation> AddAsync(Reservation reservation)
         {
-            throw new NotImplementedException();
+            await _context.Reservations.AddAsync(reservation);
+            await _context.SaveChangesAsync();
+            return reservation;
         }
 
         public Task DeleteAsync(int id)
@@ -28,7 +30,7 @@ namespace RestaurantRepositories.Repositories
 
         public Task<IEnumerable<Reservation>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return Task.FromResult(_context.Reservations.AsEnumerable());
         }
 
         public Task<Reservation> GetByIdAsync(int id)

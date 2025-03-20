@@ -23,8 +23,10 @@ namespace RestaurantWebapp
 
             // Register services
             builder.Services.AddScoped<ITableService, TableService>();
-
-
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<AuthService>();
+            builder.Services.AddScoped<IReservationService,  ReservationService>();
             // Add authentication and authorization
             builder.Services.AddAuthentication(options =>
             {
@@ -34,8 +36,10 @@ namespace RestaurantWebapp
             .AddCookie("Cookies", options =>
             {
                 options.LoginPath = "/Auth/Login";
-                options.AccessDeniedPath = "/AccessDenied";
+                options.AccessDeniedPath = "/Auth/AccessDenied";
             });
+
+
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));

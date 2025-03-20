@@ -37,6 +37,11 @@ namespace RestaurantDataAccess.Services
             throw new NotImplementedException();
         }
 
+        public async Task<User> GetByUserNameAsync(string username)
+        {
+            return await _userRepository.GetByUserNameAsync(username);
+        }
+
         public Task UpdateAsync(User user)
         {
             throw new NotImplementedException();

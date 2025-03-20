@@ -18,7 +18,7 @@ namespace RestaurantRepositories.Repositories
 
         public async Task<Table> AddAsync(Table table)
         {
-            _context.Tables.Add(table);
+           await _context.Tables.AddAsync(table);
             await _context.SaveChangesAsync();
             return table;
         }
@@ -45,9 +45,15 @@ namespace RestaurantRepositories.Repositories
 
         public async Task UpdateAsync(Table table)
         {
-            _context.Tables.Update(table);
-            await _context.SaveChangesAsync();
+            var existingTable = await _context.Tables.FindAsync(table.Id);
+
+            if (existingTable != null)
+            {
+                _context.Entry(existingTable).CurrentValues.SetValues(table);
+                await _context.SaveChangesAsync();
+            }
         }
+
 
         public async Task<IEnumerable<Table>> SearchTablesAsync(int seats, string status = null)
         {
@@ -64,6 +70,13 @@ namespace RestaurantRepositories.Repositories
             }
 
             return await query.ToListAsync();
+        }
+
+        public async Task<IEnumerable<Reservation>> GetTableReservationsAsync(int tableId)
+        {
+            return await _context.Reservations
+                .Where(r => r.TableId == tableId)
+                .ToListAsync();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3nnV8o86zso=",
+  "dgSpecHash": "alA/HT3mDz4=",
   "success": true,
-  "projectFilePath": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantRepositories\\RestaurantRepositories.csproj",
+  "projectFilePath": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\RestaurantRepositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mingo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mingo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

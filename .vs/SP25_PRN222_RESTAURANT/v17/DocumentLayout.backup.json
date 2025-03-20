@@ -1,0 +1,700 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\SampleTest2_HoaiNX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\repositories\\tablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\interfaces\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\interfaces\\itablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|d:\\coding\\sampletest2_hoainx\\restaurantrepositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{366E3548-1700-4C67-86A9-576352105881}|RestaurantRepositories\\RestaurantRepositories.csproj|solutionrelative:restaurantrepositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\services\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\edittable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\edittable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\managetables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\managetables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\managetables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\managetables.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\addtable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\addtable.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|d:\\coding\\sampletest2_hoainx\\restaurantbusiness\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|solutionrelative:restaurantbusiness\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\tabledetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\tabledetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\tabledetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\tabledetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\addtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\addtable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\makereservation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\makereservation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\myreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\myreservations.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\myreservations.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\makereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\makereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\servicecontracts\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\servicecontracts\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|d:\\coding\\sampletest2_hoainx\\restaurantbusiness\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|solutionrelative:restaurantbusiness\\data\\restaurantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|d:\\coding\\sampletest2_hoainx\\restaurantbusiness\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|solutionrelative:restaurantbusiness\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\auth\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\auth\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\auth\\accessdenied.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\auth\\accessdenied.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\tablesearch.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\tablesearch.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\dashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\customer\\tablesearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\customer\\tablesearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|d:\\coding\\sampletest2_hoainx\\restaurantbusiness\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92EE7BF8-C942-4325-A8AE-BD99A66A7C40}|RestaurantBusiness\\RestaurantBusiness.csproj|solutionrelative:restaurantbusiness\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|d:\\coding\\sampletest2_hoainx\\restaurantwebapp\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D766ADBB-510C-4816-8D68-1D6BA32A2D8C}|RestaurantWebapp\\RestaurantWebapp.csproj|solutionrelative:restaurantwebapp\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|d:\\coding\\sampletest2_hoainx\\restaurantdataaccess\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8F7CA0D-5B69-4287-85FF-A1C67823C8B6}|RestaurantDataAccess\\RestaurantDataAccess.csproj|solutionrelative:restaurantdataaccess\\servicecontracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:41:48.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITableRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\ITableRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Interfaces\\ITableRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\ITableRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Interfaces\\ITableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:25:25.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TableDetails.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\TableDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\TableDetails.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\TableDetails.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\TableDetails.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:12:07.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TableDetails.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\TableDetails.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\TableDetails.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\TableDetails.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\TableDetails.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwEQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:11:48.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddTable.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:09:17.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddTable.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\AddTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:09:11.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyReservations.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:04:51.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyReservations.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\MyReservations.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:03:00.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MakeReservation.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:01:57.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MakeReservation.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\MakeReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T13:01:36.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\ServiceContracts\\IReservationService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\ServiceContracts\\IReservationService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\ServiceContracts\\IReservationService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\ServiceContracts\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:01:17.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\Services\\ReservationService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\ReservationService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\Services\\ReservationService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:00:42.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccessDenied.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:51:09.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Auth\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:50:57.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:49:30.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TableRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\TableRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Repositories\\TableRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\TableRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Repositories\\TableRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:47:56.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\TableService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\Services\\TableService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\TableService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\Services\\TableService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:47:30.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditTable.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:44:25.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditTable.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\EditTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:44:18.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageTables.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:44:00.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageTables.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\ManageTables.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:43:52.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TableSearch.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:42:30.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TableSearch.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\TableSearch.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:42:20.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Dashboard.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:41:24.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Customer\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:41:22.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:28:25.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "RestaurantBusiness\\Entities\\User.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\User.cs",
+              "RelativeToolTip": "RestaurantBusiness\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:11:21.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Table.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "RestaurantBusiness\\Entities\\Table.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\Table.cs",
+              "RelativeToolTip": "RestaurantBusiness\\Entities\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:11:20.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\Reservation.cs",
+              "RelativeDocumentMoniker": "RestaurantBusiness\\Entities\\Reservation.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Entities\\Reservation.cs",
+              "RelativeToolTip": "RestaurantBusiness\\Entities\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:11:19.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RestaurantDbContext.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Data\\RestaurantDbContext.cs",
+              "RelativeDocumentMoniker": "RestaurantBusiness\\Data\\RestaurantDbContext.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\Data\\RestaurantDbContext.cs",
+              "RelativeToolTip": "RestaurantBusiness\\Data\\RestaurantDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T12:11:17.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T12:10:51.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:54:47.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:41:34.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantRepositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "RestaurantRepositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:41:26.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\Services\\UserService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\UserService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\Services\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:40:49.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\ServiceContracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\ServiceContracts\\IUserService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\ServiceContracts\\IUserService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\ServiceContracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:40:26.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RestaurantDataAccess\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\Services\\AuthService.cs",
+              "RelativeToolTip": "RestaurantDataAccess\\Services\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:38:41.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Auth\\Login.cshtml.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\Login.cshtml.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Auth\\Login.cshtml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA1wDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:33:58.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Pages\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Pages\\Auth\\Login.cshtml",
+              "RelativeToolTip": "RestaurantWebapp\\Pages\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T11:33:55.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantWebapp\\Program.cs",
+              "ToolTip": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantWebapp\\Program.cs",
+              "RelativeToolTip": "RestaurantWebapp\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwBwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T11:31:04.35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

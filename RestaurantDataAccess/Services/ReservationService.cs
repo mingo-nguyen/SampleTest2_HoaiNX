@@ -4,7 +4,6 @@ using RestaurantRepositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace RestaurantDataAccess.Services
@@ -12,33 +11,76 @@ namespace RestaurantDataAccess.Services
     public class ReservationService : IReservationService
     {
         private readonly IReservationRepository _reservationRepository;
-        public ReservationService(IReservationRepository reservationRepository)
+        private readonly ITableRepository _tableRepository;
+
+        public ReservationService(
+            IReservationRepository reservationRepository,
+            ITableRepository tableRepository)
         {
             _reservationRepository = reservationRepository;
-        }
-        public Task<Reservation> AddAsync(Reservation reservation)
-        {
-            throw new NotImplementedException();
+            _tableRepository = tableRepository;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task<Reservation> AddAsync(Reservation reservation)
         {
-            throw new NotImplementedException();
+            // Validate if table is available for the requested time
+            var table = await _tableRepository.GetByIdAsync(reservation.TableId);
+            if (table == null || table.Status != "Available")
+            {
+                throw new InvalidOperationException("The selected table is no longer available.");
+            }
+
+            // Check if user already has a reservation at this time
+            var existingReservations = await _reservationRepository.GetAllAsync();
+            var userReservation = existingReservations.Any(r =>
+                r.UserId == reservation.UserId &&
+                r.ReservationTime.Date == reservation.ReservationTime.Date &&
+                Math.Abs((r.ReservationTime - reservation.ReservationTime).TotalHours) < 2);
+
+            if (userReservation)
+            {
+                throw new InvalidOperationException("You already have a reservation within this time period.");
+            }
+
+            // Check if table is already booked for this time
+            var tableReservation = existingReservations.Any(r =>
+                r.TableId == reservation.TableId &&
+                r.ReservationTime.Date == reservation.ReservationTime.Date &&
+                Math.Abs((r.ReservationTime - reservation.ReservationTime).TotalHours) < 2);
+
+            if (tableReservation)
+            {
+                throw new InvalidOperationException("The selected table is already reserved for this time.");
+            }
+
+            // Everything is valid, create the reservation
+            return await _reservationRepository.AddAsync(reservation);
         }
 
-        public Task<IEnumerable<Reservation>> GetAllAsync()
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _reservationRepository.DeleteAsync(id);
         }
 
-        public Task<Reservation> GetByIdAsync(int id)
+        public async Task<IEnumerable<Reservation>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _reservationRepository.GetAllAsync();
         }
 
-        public Task UpdateAsync(Reservation reservation)
+        public async Task<Reservation> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _reservationRepository.GetByIdAsync(id);
+        }
+
+        public async Task<IEnumerable<Reservation>> GetUserReservationsAsync(int userId)
+        {
+            var allReservations = await _reservationRepository.GetAllAsync();
+            return allReservations.Where(r => r.UserId == userId);
+        }
+
+        public async Task UpdateAsync(Reservation reservation)
+        {
+            await _reservationRepository.UpdateAsync(reservation);
         }
     }
 }

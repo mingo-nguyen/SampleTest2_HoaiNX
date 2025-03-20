@@ -2791,11 +2791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantDataAccess\\RestaurantDataAccess.csproj",
+      "projectUniqueName": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\RestaurantDataAccess.csproj",
       "projectName": "RestaurantDataAccess",
-      "projectPath": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantDataAccess\\RestaurantDataAccess.csproj",
+      "projectPath": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\RestaurantDataAccess.csproj",
       "packagesPath": "C:\\Users\\mingo\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantDataAccess\\obj\\",
+      "outputPath": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantDataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2816,11 +2816,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantBusiness\\RestaurantBusiness.csproj": {
-              "projectPath": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantBusiness\\RestaurantBusiness.csproj"
+            "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\RestaurantBusiness.csproj": {
+              "projectPath": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantBusiness\\RestaurantBusiness.csproj"
             },
-            "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantRepositories\\RestaurantRepositories.csproj": {
-              "projectPath": "D:\\Coding\\C#\\ExercisePRN\\Sampletest\\RestaurantRepositories\\RestaurantRepositories.csproj"
+            "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\RestaurantRepositories.csproj": {
+              "projectPath": "D:\\Coding\\SampleTest2_HoaiNX\\RestaurantRepositories\\RestaurantRepositories.csproj"
             }
           }
         }

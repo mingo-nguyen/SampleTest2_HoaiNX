@@ -43,6 +43,11 @@ namespace RestaurantRepositories.Repositories
             throw new NotImplementedException();
         }
 
+        public Task<User> GetByUserNameAsync(string username)
+        {
+            return Task.FromResult(_context.Users.FirstOrDefault(u => u.Username == username));
+        }
+
         public Task UpdateAsync(User user)
         {
             throw new NotImplementedException();

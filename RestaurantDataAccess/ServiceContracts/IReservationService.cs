@@ -14,5 +14,6 @@ namespace RestaurantDataAccess.ServiceContracts
         Task<Reservation> AddAsync(Reservation reservation);
         Task UpdateAsync(Reservation reservation);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Reservation>> GetUserReservationsAsync(int userId);
     }
 }
